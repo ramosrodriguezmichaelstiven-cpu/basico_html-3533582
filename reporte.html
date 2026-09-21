@@ -17,6 +17,25 @@
             <p>Los datos recopilados en este formulario (nombre e informacion de contacto) seran utilizados unica y exclusivamente para gestionar la reparacion y seguimiento de los equipos o mobiliario del ambiente de formacion. No seran compartidos con terceros</p>
          </section>
          <!-- Aqui iniciaremos nuestro formulario en el siguiente paso-->
+          <section>
+            <h2>Detalles del Reporte</h2>
+
+            <form action="#" method="POST">
+                <!--Campo de texto Basico-->
+                <label for="nombreCompleto">Nombre del Aprendiz</label>
+                <input type="text" id="nombreCompleto" required
+                <br><br>
+
+                <!-- Lista Desplegable (combobox)-->
+                 <label for="tipoNovedad">Tipo de Novedad</label>
+                 <select id="tipoNovedad" name="tipoNovedad" required>
+                    <option value="">Seleccione una categoria...</option>
+                    <option value="hardware">Daño de equipo de computo</option>
+                    <option value="software">Falla de software o red</option>
+                    <option value="infraestructura">Daño en mobilidad o electricidad</option>
+                 </select>
+                 <br><br>
+          </section>
     </main>
 </body>
 </html>
